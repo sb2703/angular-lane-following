@@ -34,7 +34,7 @@ Una volta terminati questi passi, si potrà avviare l'algoritmo avviando la demo
 Prima di eseguire il comando assicurarsi, ad esempio attraverso Portainer, che i container `dt-duckiebot-interface` e `dt-car-interface` siano in esecuzione.
 
 ## Funzionamento dell'algoritmo
-Una volta eseguito il comando precedente è possibile avviare l'algoritmo attraverso i joystick virtuale di Duckietown. Eseguire dal proprio PC il comando
+Una volta eseguito il comando precedente è possibile avviare l'algoritmo attraverso il joystick virtuale di Duckietown. Eseguire dal proprio PC il comando
 
     dts duckiebot keyboard_control <DUCKIEBOT_NAME>
 

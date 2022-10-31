@@ -31,7 +31,7 @@ Una volta terminati questi passi, si potrà avviare l'algoritmo avviando la demo
 
     dts duckiebot demo --demo_name lane_following --duckiebot_name <DUCKIEBOT_NAME> --package_name duckietown_demos
 
-Prima di eseguire il comando assicurarsi, ad esempio attraverso Portainer, che i container `dt-duckiebot-interface` e `dt-car-interface` siano in esecuzione.
+eseguito sul proprio PC. Prima di eseguire il comando assicurarsi, ad esempio attraverso Portainer, che i container `dt-duckiebot-interface` e `dt-car-interface` siano in esecuzione.
 
 ## Funzionamento dell'algoritmo
 Una volta eseguito il comando precedente è possibile avviare l'algoritmo attraverso il joystick virtuale di Duckietown. Eseguire dal proprio PC il comando

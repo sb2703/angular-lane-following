@@ -248,7 +248,7 @@ class LineDetectorNode(DTROS):
 
 if __name__ == "__main__":
     
-    # global for reconfigure colors
+    # Global variables for colors
     H_YELLOW_MIN = None
     S_YELLOW_MIN = None
     V_YELLOW_MIN = None

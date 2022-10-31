@@ -23,7 +23,7 @@ eseguito dal proprio PC; è normalmente richiesta una password - di default *qua
  1. All'interno del duckiebot, ri-taggare l'immagine `duckietown/dt-core:daffy-arm32v7` con il comando `docker tag duckietown/dt-core:daffy-arm32v7 duckietown/dt-core:backup` ed eliminare il vecchio tag con il comando `docker rmi duckietown/dt-core:daffy-arm32v7`.
  2. All'interno del proprio PC, clonare la presente repository da GitHub.
  3. Copiare nel duckiebot la cartella `pkgs` della repository scaricata utilizzando il comando `scp -r pkgs/ duckie@<DUCKIEBOT_NAME>.local:/home/duckie`. Si suppone di essere nella directory in cui si trova `pkgs`, altrimenti sarà necessario specificare il percorso (relativo o assoluto).
- 6. Copiare nel duckiebot il Dockerfile delal repository utilizzando il comando `scp Dockerfile duckie@<DUCKIEBOT_NAME>.local:/home/duckie`. Si suppone di essere nella directory in cui si trova tale file, altrimenti sarà necessario specificare il percorso (relativo o assoluto).
+ 6. Copiare nel duckiebot il Dockerfile della repository utilizzando il comando `scp Dockerfile duckie@<DUCKIEBOT_NAME>.local:/home/duckie`. Si suppone di essere nella directory in cui si trova tale file, altrimenti sarà necessario specificare il percorso (relativo o assoluto).
  8. Nel duckiebot, spostarsi nella directory in cui sono memorizzati `pkgs` e il Dockerfile; come risultato dei comandi precedenti la directory è `/home/duckie`.
  9. Eseguire il comando `docker build -t duckietown/dt-core:daffy-arm32v7 --build-arg PACKAGES=pkgs .` nel duckiebot.
 
